@@ -1,0 +1,69 @@
+.app {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+a {
+  border-radius: 1px 40px 1px;
+  /* background: gainsboro; */
+  text-decoration: solid;
+  font-weight: 700;
+  transition: all 0.2s ease-in;
+  text-align: center;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+a:hover {
+  background: rgb(229, 229, 229, 0.6);
+  color: rgb(5, 58, 119);
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: whitesmoke;
+  transition: all 0.2s ease-in;
+  border-radius: 60%;
+}
+
+body {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Background Image */
+
+body::after {
+  background-image: url(https://i.pinimg.com/originals/16/be/71/16be71bf78b5730f723130ec172d8347.jpg);
+  background-attachment: fixed;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -20;
+  height: 100%;
+
+  /* filter: blur(0.5px);
+  -webkit-filter: blur(3px); */
+}
