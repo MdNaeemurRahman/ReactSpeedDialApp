@@ -77,7 +77,7 @@ const Bpp = () => {
       />
       <Shortcut
         href='http://huis.hueuni.edu.vn/'
-        src='http://huis.hueuni.edu.vn/logo.png'
+        src='https://lh3.googleusercontent.com/proxy/NzZcscfM8fg0ppM0qBvH7bjcvDr6g35q2Hp3svYAowgWnzMR089DJmKrpsm4O-HZ5wsUd8y7GexLTw'
         title='Hue University'
       />
       <Shortcut
